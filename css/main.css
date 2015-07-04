@@ -1,0 +1,142 @@
+@import 'reset.css';
+
+.inline-block{
+	display: inline-block;
+}
+.l-gutter{
+	margin-left: 20px;
+}
+.t-padding-3x{
+	padding-top: 60px;
+}
+.left{
+	float: left;
+}
+.clearfix{
+	clear: both;
+}
+
+header{
+	height: 150px;
+	background: #b0d4e3; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2IwZDRlMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4OGJhY2YiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #b0d4e3 0%, #88bacf 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b0d4e3), color-stop(100%,#88bacf)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #b0d4e3 0%,#88bacf 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #b0d4e3 0%,#88bacf 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #b0d4e3 0%,#88bacf 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #b0d4e3 0%,#88bacf 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0d4e3', endColorstr='#88bacf',GradientType=0 ); /* IE6-8 */
+}
+.container{
+	width: 1125px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#game-content{
+	background: #333333;
+	width: 800px;
+	height: 600px;
+}
+#memory-cards{
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px
+}
+#sidebar{
+	width: 300px;
+	background: #c0c0c0;
+	min-height: 600px;
+}
+footer{
+	height: 100px;
+	background: #606c88; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYwNmM4OCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzZjRjNmIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #606c88 0%, #3f4c6b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#606c88), color-stop(100%,#3f4c6b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #606c88 0%,#3f4c6b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #606c88 0%,#3f4c6b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #606c88 0%,#3f4c6b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #606c88 0%,#3f4c6b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-8 */
+}
+
+.card{
+	background-image: url('../images/regularshow-sprite.jpg');
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+.card.back{
+	background-position: 0 150px;
+}
+.card.c1{
+	background-position: 149px 150px;
+}
+.card.c2{
+	background-position: 299px 150px;
+}
+.card.c3{
+	background-position: 449px 150px;
+}
+.card.c4{
+	background-position: 599px 150px;
+}
+.card.c5{
+	background-position: 749px 150px;
+}
+.card.c6{
+	background-position: 899px 150px;
+}
+.card.c7{
+	background-position: 1049px 150px;
+}
+.card.c8{
+	background-position: 1199px 150px;
+}
+
+/* entire container, keeps perspective */
+.flip-card {
+	perspective: 1000px;
+}
+
+/* flip the pane when hovered */
+/*.flip-card:hover .flip, .flip-card.hover .flip {
+	transform: rotateY(180deg);
+}
+*/
+
+.flip-card, .front, .reverse {
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+/* flip speed goes here */
+.flip {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .reverse {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+}
+
+/* back, initially hidden pane */
+.reverse {
+	transform: rotateY(180deg);
+}
